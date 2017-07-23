@@ -1,0 +1,64 @@
+
+.vid-container{
+  position:relative;
+  height:auto;
+  overflow:hidden;
+}
+.inner {
+  position: absolute;
+}
+.inner-container{
+  position:center-block;
+}
+
+.box{
+  position:checkbox-inline;
+  height:100%;
+  width:100%;
+  font-family:Helvetica;
+  color:#fff;
+  background-image: url(login/login.jpg);
+  padding:30px 0px;
+  opacity:0.9;
+  filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+.box h1{
+  text-align:center;
+  margin:30px 0;
+  font-size:30px;
+}
+.box input{
+  display:block;
+  width:300px;
+  margin:20px auto;
+  padding:15px;
+  background:rgba(0,0,0,0.2);
+  color:white;
+  border:5;
+  border-radius: 10px;
+}
+.box input:focus,.box input:active,.box button:focus,.box button:active{
+  outline:none;
+}
+.box button{
+  background:#742ECC;
+  border:0;
+  color:#fff;
+  padding:10px;
+  font-size:20px;
+  width:330px;
+  margin:20px auto;
+  display:block;
+  cursor:pointer;
+}
+.box button:active{
+  background:#27ae60;
+}
+.box p{
+  font-size:14px;
+  text-align:center;
+}
+.box p span{
+  cursor:pointer;
+  color:#666;
+}
